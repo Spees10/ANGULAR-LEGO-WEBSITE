@@ -1,0 +1,46 @@
+<!-- <p>best-seller works!</p> -->
+
+
+<h6>Home > Age> 4+ Gifts & Toys for 4+ Year Olds</h6>
+
+<div class="container-fluid p-0">
+  <nav class="navbar navbar-expand-lg navbar-dark font-weight-light d-flex justify-content-center"
+    style="background-color: rgb(8, 8, 8)">
+    <h2 style="color: white">
+      Best seller
+    </h2>
+  </nav>
+</div>
+
+
+
+<div class="h6 my-3 container-fluid " style="background-color:rgb(243, 242, 242) ;">
+
+
+  LEGO® sets are the best educational, brain development and learning toys for 18 months to 3 year olds. Gift the
+  perfect LEGO® set or DUPLO® bricks that will help your toddler foster imagination while developing creativity, sensory
+  and fine motor skills.
+</div>
+
+
+
+<div class="container ">
+  <div class="row">
+    <div class="col-3 border-end p-0">
+      <app-filter class="col-3 border-end p-0"></app-filter>
+    </div>
+   
+    <app-filter-product ></app-filter-product>
+    <div class="col-9 row ">
+
+      <div class="card col-8 col-md-4 " *ngFor="let pr of proListCat">
+        <img [src]="image(pr.id)" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title ">{{pr.prodName}}</h5>
+          <h3 class="card-text h6">{{pr.prodPrice| currency:'USD':'symbol'}}
+          </h3>
+          <a href="#" class="btn w-100" style="background-color: rgba(243, 114, 9, 0.815);">ADD TO BAGE</a>
+        </div>
+      </div>
+    </div>
+</div>

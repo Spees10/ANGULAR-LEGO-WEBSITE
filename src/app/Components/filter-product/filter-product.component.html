@@ -1,0 +1,11 @@
+
+      <div class="card col-8 col-md-4 " *ngFor="let pr of proListCat">
+        <img [src]="image(pr.id)" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title ">{{pr.prodName}}</h5>
+          <h3 class="card-text h6">{{pr.prodPrice| currency:'USD':'symbol'}}
+          </h3>
+          <a href="#" class="btn w-100" style="background-color: rgba(243, 114, 9, 0.815);">ADD TO BAGE</a>
+        </div>
+      </div>
+

@@ -1,0 +1,355 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  .btn-customs {
+    background-color: #89cff0;
+    box-shadow: 0px 5px 3px #89cfff;
+  
+  }
+  
+  .btn-customs:hover {
+    background-color: #fff;
+    box-shadow: 0px 5px 3px #4b514f;
+  }
+  
+  .list-group a:hover {
+    text-decoration-line: underline;
+    color: white;
+    background: rgb(0, 109, 183);
+  }
+  
+  /*---------------------------------*/
+  /* Styles for wrapping the search box */
+  
+  .main {
+    width: 20%;
+    margin: 0px;
+  }
+  
+  /* Bootstrap 4 text input with search icon */
+  
+  .has-search .form-control {
+    padding-left: 2.375rem;
+  }
+  
+  .has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+  }
+  
+  /* adds some margin below the link sets  */
+  .navbar .dropdown-menu div[class*="col"] {
+    margin-bottom: 0rem;
+  }
+  
+  .navbar .dropdown-menu {
+    border: none;
+  }
+  
+  .navbar-nav a {
+    font-size: 0.75rem;
+    font-weight: bold;
+  }
+  
+  /* breakpoint and up - mega dropdown styles */
+  @media screen and (min-width: 992px) {
+    /* remove the padding from the navbar so the dropdown hover state is not broken */
+    .navbar {
+      padding-top: 0px;
+      padding-bottom: 0px;
+    }
+  
+    /* remove the padding from the nav-item and add some margin to give some breathing room on hovers */
+    .navbar .nav-item {
+      padding: 0.5rem 0.5rem;
+      margin: 0 0.25rem;
+    }
+  
+    /* makes the dropdown full width  */
+    .navbar .dropdown {
+      position: static;
+    }
+  
+    .navbar .dropdown-menu {
+      width: 100%;
+      left: 0;
+      right: 0;
+      /*  height of nav-item  */
+      top: 55px;
+  
+      display: block;
+      visibility: hidden;
+      opacity: 0;
+      transition: visibility 0s, opacity 0.3s linear;
+    }
+  
+    /* shows the dropdown menu on hover */
+    .navbar .dropdown:hover .dropdown-menu,
+    .navbar .dropdown .dropdown-menu:hover {
+      display: block;
+      visibility: visible;
+      opacity: 1;
+      transition: visibility 0s, opacity 0.3s linear;
+    }
+  
+    .navbar .dropdown-menu {
+      border: 1px solid rgba(0, 0, 0, 0.15);
+      background-color: #fff;
+    }
+  }
+  
+  #radioBtn .notActive {
+    color: #3276b1;
+    background-color: #fff;
+  }
+  
+  .btn-outline-dark {
+    background-color: black;
+    color: white;
+  }
+  
+  .btn-outline-dark:hover {
+    background-color: white;
+    color: black;
+    border: none;
+  }
+  
+  h3,
+  p,
+  h4,
+  h5 {
+    color: white;
+  }
+  
+  #join {
+    padding: 70px 0;
+    text-align: center;
+  }
+  
+  .inverse {
+    background-color: white;
+    color: black;
+    border: none;
+  }
+  
+  .inverse:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  #VIP {
+    box-shadow: 5px 10px 8px #000000;
+  }
+  
+  #VIP:hover {
+    transform: translateY(-10px);
+    transition: 1s;
+  }
+  
+  li {
+    color: white;
+  }
+  
+  .sitemapFooter {
+    color: black;
+    font-size: small;
+  }
+  
+  .sitemapFooter:hover {
+    color: #006db7;
+  }
+  
+  .arrow {
+    background-color: rgb(253, 128, 36);
+  }
+  
+  .arrow:hover {
+    background-color: white;
+    border-color: rgb(253, 128, 36);
+  }
+  
+  .footerbg {
+    background-color: #f8f8f8;
+  }
+  
+  .caption {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    width: 100%;
+  }
+  
+  .bg-image1 {
+    background-image: url("/../assets/images/about-1.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .bg-image2 {
+    background-image: url("/../assets/images/about-2.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .history {
+    font-size: 1.4375rem !important;
+    font-weight: 300 !important;
+  }
+  
+  .line {
+    width: 1px;
+    height: 150px;
+    background: white;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .line {
+      transform: rotate(90deg);
+    }
+  }
+  
+  .support {
+    text-align: left;
+  }
+  
+  .h_5,
+  .parag,
+  .anchor {
+    color: white;
+  }
+  
+  #contact a:hover {
+    color: white;
+  }
+  .secondFooter {
+    background: #16222a;
+    background: -webkit-linear-gradient(59deg, #000000, #000000);
+    background: linear-gradient(59deg, #000000, #000000);
+    color: white;
+    /* margin-top:px; */
+    height: 300px;
+  }
+  
+  .secondFooter a {
+    color: #fff;
+    font-size: 14px;
+  }
+  
+  .secondFooter {
+    color: #fa944b;
+    text-decoration: none;
+  }
+  
+  .footer-pad {
+    font-size: 10px;
+  }
+  
+  .footer-middle {
+    padding-top: 2em;
+    color: white;
+  }
+  
+  /*SOCÄ°AL Ä°CONS*/
+  
+  /* footer social icons */
+  
+  ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left: 0 !important;
+    padding: 0;
+  }
+  
+  ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+  }
+  
+  /* footer social icons */
+  
+  .vl {
+    border-left: 1px solid white;
+    height: 120px;
+    margin-left: 270px;
+  }
+  
+  .followus {
+    left: 2px;
+    list-style: none;
+    display: inline;
+    text-align: right;
+    color: white;
+    margin-left: 0 !important;
+    padding: 0;
+  }
+  
+  .follow {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .social-network {
+    color: white;
+  }
+  
+  .social-circle li a {
+    display: inline-block;
+    position: relative;
+    color: #000000;
+    margin: 0 auto 0 auto;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+  }
+  
+  .social-circle li i {
+    margin: 0;
+    line-height: 30px;
+    text-align: center;
+  }
+  
+  .social-network a {
+    background-color: #f9f9f9;
+  }
+  
+  .mail {
+    float: left;
+    margin-left: 110px;
+    width: 270px;
+    font-size: 15px;
+  }
+  
+  .btn-C {
+    color: #000000;
+    background-color: #f78215;
+  }
+  
+  .btn-C:hover {
+    background-color: white;
+    border: 2px solid #f78215;
+    cursor: pointer;
+  }

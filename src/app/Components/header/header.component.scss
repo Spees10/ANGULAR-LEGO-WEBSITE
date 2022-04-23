@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* //? Header Section ....  */
+  
+  .row {
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  .Row-Header {
+    justify-content: space-between;
+    font-family: "Cera Pro", sans-serif;
+  }
+  .btn-zone {
+    font-size: 10px;
+    text-align: center;
+    margin-left: 15px;
+    background-color: #abd9ff;
+    box-shadow: 1px 1px 3px 3px rgb(187, 204, 207) inset;
+  }
+  .btn-zone:hover {
+    background-color: white;
+  }
+  .LMoreHeaderLink {
+    text-decoration: none;
+    color: rgb(68, 149, 224);
+  }
+  .LMoreHeaderLink:hover {
+    text-decoration: underline;
+  }
+  .CenterSideSection {
+    font-size: 12px;
+    padding-top: 10px;
+  }
+  .hr-Header {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 0.0225rem;
+    height: 2rem;
+    background: rgb(117, 117, 117);
+    color: rgb(117, 117, 117);
+  }
+  .RightSideSection {
+    text-align: end;
+  }
+  .btn-account {
+    font-size: 12px;
+  }
+  
+  .navbar {
+    background-color: #ffcf00;
+  }
+  .divIcon {
+    margin-right: 10px;
+  }
+  .divIcon ul li {
+    margin-left: 10px;
+  }
+  .left-Nav a {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  /* //? SlideImage Section part2 ......................  */
+  
+  .img {
+    font-family: "Cera Pro", sans-serif;
+    color: white;
+    background-image: url("/../assets/images/10299-RealMadridStadium-202203-SL-Hero-Standard-Large.jpeg");
+    /* background-size: cover;
+    background-position: center; */
+    background-repeat: no-repeat;
+  }
+  
+  .btn-shop {
+    font-size: 15px;
+    text-align: center;
+    background-color: #ffffff;
+    color: black;
+    padding: 10px;
+    margin-bottom: 35px;
+    width: 150px;
+  }
+  .btn-shop:hover {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+  }
+  
+  /* //? SlideImage Section part2 .......................... */
+  .links-Content {
+    font-size: 12px;
+  }
+  .links-Content div a:nth-child(2) {
+    text-decoration: none;
+    color: black;
+  }
+  .links-Content div a:nth-child(2):hover {
+    text-decoration: underline;
+    color: rgb(62, 147, 187);
+  }
+  
+  /* //? 🍓🍓 Recommended for you Section 🍓🍓.............................. */
+  .Recommended {
+    font-size: 32px;
+    font-weight: 400;
+    font-family: "Cera Pro", sans-serif;
+  }
+  .card {
+    font-family: "Cera Pro", sans-serif;
+  }
+  .card a:first-child {
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .card button {
+    font-size: 12px;
+    padding: 0px;
+  }
+  .card a {
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+  }
+  .card a:hover {
+    text-decoration: underline;
+  }
+  .card-text {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .card-body a {
+    border: 1px solid #fd8024;
+    background-color: #fd8024;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .card-body a:hover {
+    background-color: #ffffff;
+  }
+  .head {
+    border: 1px solid rgba(219, 215, 215, 0.856);
+  }
+  
+  /* //? 🍓🍓 Help Cookie Section  🍓🍓  ....................... */
+  
+  .HelpCookie {
+    background-color: #e6f3ff;
+    border-radius: 3.3125rem;
+    font-family: "Cera Pro", sans-serif;
+    height: 140px;
+  }
+  .HelpCookie .row .HelpContent h3 {
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .HelpCookie .row .HelpContent p {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .HelpCookie .row .HelpContent a {
+    font-size: 14px;
+    font-weight: 700;
+    color: #006db7;
+  }
+  
+  /* //? 🍓🍓 New Section  🍓🍓......................... */
+  .slid-img1 {
+    background-image: url("/../assets/images/05-42130-Technic-Homepage-202201-Block-Standard-Environment.jpeg");
+    height: 450px;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  .slid-img1 img:first-child,
+  .slid-img2 img:first-child {
+    position: absolute;
+    right: 30px;
+    bottom: 20px;
+  }
+  .slid-img1 img:nth-child(2),
+  .slid-img2 img:nth-child(2) {
+    position: absolute;
+    right: 150px;
+    bottom: 20px;
+  }
+  .slid-img2 {
+    background-image: url("/../assets/images/05-21331-Rings-Homepage-202201-Block-Standard-Lifestyle.jpeg");
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  .underSlidImg {
+    font-family: "Cera Pro", sans-serif;
+  }
+  .underSlidImg h2 {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .underSlidImg p {
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .underSlidImg a:hover {
+    text-decoration: underline;
+  }
+  
+  /* //? 🍓🍓 JanGoods Section  🍓🍓................................. */
+  .JanGoods {
+    background-image: url("/../assets/images/40530-JaneGoodall-202203-Home-Hero-Short-Large.jpeg");
+    font-family: "Cera Pro", sans-serif;
+    background-position: center;
+  }
+  .janH3 {
+    font-size: 18px;
+    margin-left: 80px;
+    font-weight: 400;
+    color: black;
+  }
+  .btn-shop3 {
+    background-color: #000000;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 35px;
+    width: 150px;
+    font-weight: bold;
+    margin-left: 80px;
+  }
+  .btn-shop3:hover {
+    background-color: white;
+    color: #000000;
+  }
+  
+  /* //? 🍓🍓 intro Section  🍓🍓................................. */
+  .introDiv {
+    font-family: "Cera Pro", sans-serif;
+  }
+  .introDiv h2 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .introDiv p {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .introDiv a {
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  .introDiv a:hover {
+    text-decoration: underline;
+  }
+  
+  /* //? 🍓🍓 finally Fotter Section  🍓🍓  .................... */
+  .firstFotter {
+    background-color: #201d48;
+  }
+  .FotterA h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+  }
+  .FotterA a {
+    color: rgb(224, 209, 209);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Cera Pro", sans-serif;
+    text-decoration: none;
+  }
+  .FotterA a:hover {
+    text-decoration: underline;
+  }
+  .UnitedState {
+    background-color: #18152d;
+  }
+  
+  .input-group {
+    width: 60%;
+  }
+  .input-group button {
+    background-color: #fd8024;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .input-group button:hover {
+    border: 1px solid #fd8024;
+    background-color: white;
+    color: black;
+  }
+  .secondFotter p {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .finalFotter a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    margin-right: 30px;
+  }
+  .finalFotter a:hover {
+    text-decoration: underline;
+  }
+  .finalFotter p {
+    color: white;
+    font-size: 12px;
+  }
