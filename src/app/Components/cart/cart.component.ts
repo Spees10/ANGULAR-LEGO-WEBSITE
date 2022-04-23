@@ -19,6 +19,7 @@ export class CartComponent implements OnInit {
   constructor(private activRoue:ActivatedRoute,private service:ApiDataService) { 
 
   }
+  ////////////////////////
 
   ngOnInit(): void {
     this.activRoue.paramMap.subscribe((paramMap)=>{
